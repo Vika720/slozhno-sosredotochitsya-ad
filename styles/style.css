@@ -357,9 +357,11 @@ html {
   }
 
   .how {
+    margin: 0 20px;
     display: grid;
     grid-template-columns: 35% 65%;
-    padding-block-end: 0;
+    padding-block-end: 80px;
+    gap: 0;
   }
 
   .text-block-how {
@@ -367,9 +369,10 @@ html {
   }
 
   .grid {
-    padding:0;
+    padding: 0;
     padding-block-end: 60px;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0 20px;
   }
 
   .grid__image:first-of-type {
@@ -399,8 +402,17 @@ html {
     max-block-size: unset;
   }
 
+  .footer {
+    padding: 20px;
+  }
+
   .footer__logo {
     font-size: var(--footer-logo-size);
+  }
+
+  .how-text-block__heading {
+    margin-block-start: 20px;
+    margin-block-end: 10px;
   }
 }
 
